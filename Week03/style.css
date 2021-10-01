@@ -1,0 +1,39 @@
+div.container {
+  border: 1px solid #000000;
+  overflow: hidden;
+  width: 100%;
+}
+.giris {
+  padding: 20px;
+  background-color: skyblue;
+  position: relative;
+  margin: 10px;
+}
+.Iletisim {
+  text-align: right;
+  background-color: violet;
+  color: white;
+}
+
+.kendim {
+  border-style: solid;
+  background-color: cadetblue;
+  padding: 10px;
+  bottom: 10px;
+  margin: 10px;
+}
+.egitim {
+  border-style: solid;
+  background-color: lightcoral;
+  margin: 10px;
+}
+.Cocuklar {
+  border-style: solid;
+  background-color: rgb(160, 147, 215);
+  margin: 10px;
+}
+.Hobiler {
+  border-style: solid;
+  background-color: rgb(242, 237, 215);
+  margin: 10px;
+}
