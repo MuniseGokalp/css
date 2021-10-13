@@ -1,0 +1,146 @@
+main {
+  background-color: #f7f3d7;
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  width: 1000px;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mor {
+  background-color: #62306d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+.birinci {
+  height: 45px;
+  width: 60px;
+  border-radius: 00px 00px 90px 90px;
+  background: #f7ec7d;
+}
+.ikinci {
+  height: 45px;
+  width: 60px;
+  border-radius: 90px 90px 00 00;
+  background: #f7ec7d;
+  position: relative;
+  bottom: 45px;
+}
+
+.pembe {
+  background-color: #e3516e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+.butunparcalar {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.parca1 {
+  height: 75px;
+  width: 75px;
+  border-radius: 90px 00px 00px 00px;
+  background: #51b5a9;
+}
+.parca2 {
+  height: 75px;
+  width: 75px;
+  border-radius: 00px 90px 00px 00px;
+  background: #f7ec7d;
+}
+.parca3 {
+  height: 75px;
+  width: 75px;
+  border-radius: 00px 00px 0px 90px;
+  background: #f7f3d7;
+}
+.parca4 {
+  height: 75px;
+  width: 75px;
+  border-radius: 00px 90px 00px 00px;
+  background: #e3516e;
+}
+.siyah {
+  background-color: #191210;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+}
+.ic-daire {
+  height: 50px;
+  width: 50px;
+  background-color: crimson;
+  border-radius: 50%;
+}
+.ilk-kutu {
+  position: absolute;
+  z-index: 1;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  background: #eca03d;
+}
+.kutular-daire {
+  border: 15px solid #eca03d;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ikinci-kutu {
+  position: absolute;
+  z-index: 2;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  background: #191210;
+}
+.ucuncu-kutu {
+  position: absolute;
+  z-index: 3;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  background: #eca03d;
+}
+.sol-kanat {
+  border: 15px solid #eca03d;
+  height: 30px;
+  width: 30px;
+  border-radius: 00px 00px 90px 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*.sag-kanat {
+  border: 15px solid #eca03d;
+  height: 30px;
+  width: 30px;
+  border-radius: 00px 00px 90px 90px;
+  display: flex;
+  position: relative;
+}
