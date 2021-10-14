@@ -1,0 +1,68 @@
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+main {
+  background-color: rgb(245, 243, 243);
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+}
+.bilgi-girisi {
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 6px rgb(182, 179, 179);
+  background-color: white;
+  margin: 50px;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.email {
+  border: 1px solid rgb(72, 72, 240);
+  height: 40px;
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.sifre {
+  border: 1px solid rgb(209, 206, 206);
+  height: 40px;
+  width: 300px;
+  justify-content: center;
+  border-radius: 10px;
+}
+.cizgi {
+  border-right: 1px solid grey;
+}
+.kayit {
+  border: 1px solid;
+  height: 40px;
+  width: 300px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.hesap {
+  background-color: #53a853;
+  height: 50px;
+  width: 200;
+  border-radius: 10px;
+}
+footer {
+  background-color: white;
+  color: rgb(209, 206, 206);
+  align-items: center;
+}
+.yazi {
+  margin: 50px;
+}
+.unternehme {
+  display: flex;
+  justify-content: flex-end;
+}
